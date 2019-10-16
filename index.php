@@ -10,7 +10,7 @@ $posts = get_all_posts();
     <title>Blog</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body bgcolor="grey">
+<body>
     <div class="container">
         <h1 class="text-center">Mon Blog</h1>
         <div class="row">
@@ -24,9 +24,8 @@ $posts = get_all_posts();
     </div>
 <form>
 <center><input type="button" value="Créer" onclick="location.href='creer.php'"/>
-<input type="button" value="Récuperer"/>
-<input type="button" value="Mettre à jour"/>
-<input type="button" value="Effacer"/></center>
+<input type="button" value="Mettre à jour" onclick="location.href='maj.php'"/>
+<input type="button" value="Effacer" onclick="location.href='effacer.php'"/></center></br></br>
 </form>
 </body>
 </html>
